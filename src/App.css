@@ -1,38 +1,59 @@
-.App {
+.mainBox{
   text-align: center;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-top: 0.1%;
+  border-radius: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  background-color: rgb(4, 98, 136);
+  color: rgb(255, 255, 255);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inpToDo{
+    height: 7%;
+    border: none;
+    border-bottom: 2px solid rgb(4, 98, 136);
+    outline: none;
+    width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addToDo{
+    background-color: rgb(4, 98, 136);
+    font-size: medium;
+    margin-left: 2%;
+    height: 8%;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.todoStyle{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-bottom: 2%;
+}
+
+.fa-times{
+  margin-top: 1%;
+  margin-left: 3%;
+  background-color: rgb(4, 98, 136);
   color: white;
+  width: 7%;
+  border-radius: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+.fa-times:hover{
+  background-color: red;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ol{
+  list-style-type: none;
+}
+ol li{
+  text-align: left;
+  font-size: 18px;
 }
